@@ -16,7 +16,7 @@ function calculateMedian(list){
     });
 
     const listMiddle = parseInt(orderList.length / 2);
-    function itsPair(number){
+    function itsEven(number){
         if (number % 2 === 0){
             return true;
         } else{
@@ -26,7 +26,7 @@ function calculateMedian(list){
     
     let median;
     
-    if(itsPair(orderList.length)){
+    if(itsEven(orderList.length)){
         const element1 = list[listMiddle -1];
         const element2 = list[listMiddle];
     

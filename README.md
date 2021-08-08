@@ -21,3 +21,10 @@ Practice codes for some JavaScript programs
 - Second step: Implement the formulas in JavaScript.
 - Third step: Create functions for the discounts.
 - Fourth step: Integrate JavaScript with HTML.
+
+## Project #4: Wages in different countries
+
+- First step: Define the formulas.
+- Second step: Implement the formulas in JavaScript.
+- Third step: Create functions for the discounts.
+- Fourth step: Integrate JavaScript with HTML.
