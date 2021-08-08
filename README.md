@@ -14,3 +14,10 @@ Practice codes for some JavaScript programs
 - Second step: Implement the formulas in JavaScript.
 - Third step: Create functions for the discounts.
 - Fourth step: Integrate JavaScript with HTML.
+
+## Project #3: Average, median and mode
+
+- First step: Define the formulas.
+- Second step: Implement the formulas in JavaScript.
+- Third step: Create functions for the discounts.
+- Fourth step: Integrate JavaScript with HTML.

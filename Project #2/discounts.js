@@ -11,5 +11,5 @@ function calculateDiscountPrice(){
 
     const totalPrice = calculatePriceWithDiscount(priceValue, discountValue);
     const write = document.getElementById("result");
-    result.innerHTML = `The price of the product with the discount is ${totalPrice}$`
+    result.innerHTML = `The price of the product with the discount is ${totalPrice}$`;
 }
