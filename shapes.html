@@ -8,7 +8,42 @@
 </head>
 <body>
     <main>
-    <h1>Geometirc Shapes</h1>
+    <h1>Geometirc Shapes Calculator</h1>
+    <section>
+        <form>
+            <label for="squareInput"><span>How long is each side of your square?</span>
+                <input type="number" id="squareInput" placeholder="Side of the square"/>
+                <p id="squareResult"></p>
+                <button type="button" id="squarePerimeter" onclick="calculateSquarePerimeter()">Calculate Perimeter</button>
+                <button type="button" id="squareArea" onclick="calculateSquareArea()">Calculate Area</button>
+            </label>
+        </form>
+    </section>
+    <section>
+        <form>
+            <label for="triangleSide1"><span>How long is each side of your triangle?</span></label>
+                <input type="number" id="triangleSide1" placeholder="Side A"/>
+            <label for ="triangleSide2"></label>
+                <input type="number" id="triangleSide2" placeholder="Side B" />
+            <label for ="base"><span>Set the length of the base</span></label>
+                <input type="number" id="base" placeholder="Base" />
+            <label for ="height"><span>Set the height of the triangle</span></label>
+                <input type="number" id="height" placeholder="Height" />
+                <p id="triangleResult"></p>
+                <button type="button" id="trianglePerimeter" onclick="calculateTrianglePerimeter()">Calculate Perimeter</button>
+                <button type="button" id="triangleArea" onclick="calculateTriangleArea()">Calculate Area</button>
+        </form>
+    </section>
+    <section>
+        <form>
+            <label for="circleInput"><span>Enter the radius of your circle</span>
+                <input type="number" id="circleInput" placeholder="Circle radius"/>
+                <p id="circleResult"></p>
+                <button type="button" id="circlePerimeter" onclick="calculateCirclePerimeter()">Calculate Perimeter</button>
+                <button type="button" id="circleArea" onclick="calculateCircleArea()">Calculate Area</button>
+            </label>
+        </form>
+    </section>
     </main>
     <script src="./shapes.js"></script>
 </body>
